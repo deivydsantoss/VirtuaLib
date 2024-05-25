@@ -9,23 +9,46 @@
     <title>VirtuaLib | Home</title>
 </head>
 <body>
-    <header class="w-full max-h-36 bg-[#f2f2f2]">
-        <div>
+    <header class="w-full h-[70px] bg-[#f2f2f2]">
+
+        <div class="w-full h-full flex justify-between px-10 items-center">
+
             <img
             src="assets/Group 11.svg"
             alt="Logo VirtuaLib"
-            class="w-32 h-32 hover:scale-90 duration-200"
+            class="w-32 h-32 pl-40 hover:scale-90 duration-200"
             />
-            <div class="w-full flex flex-col items-center justify-center">
-                <input type="text" placeholder="Qual livro deseja?" class="w-11/12 pl-20 border-solid border-[#1c1c1c] ">
-                <ul>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                </ul>
+
+            <button class="" type="button">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search " viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+                <input class=""
+                type="text" placeholder="Qual livro deseja?" placeholder-[#1a90dc] >
+
+            </button>
+
+            <div class="flex">
+
+                <button class="w-40 h-[40px] px-1 text-xl text-[#f2f2f2] bg-[#1A90DC] rounded-lg" type="button">
+                    <span class="text-2xl">Localização</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f2f2f2" class="bi bi-geo-alt inline" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+                </button>
+    
+                <div class="">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
+
+
         </div>
 
     </header>
